@@ -27,9 +27,10 @@ namespace PrivateMessageUnt
 
         public override TranslationList DefaultTranslations => new TranslationList()
         {
-            {"command_pm_error", "/pm [nickname] [message]"},
-            {"command_pm_delivered", "{0} пишет: {1}"},
-            {"command_pm_player_not_found", "{0} не найден." },
+            {"command_private_message_help", "/pm [nick] [message]."},
+            {"command_private_message_to_player_successfully", "<color=red>{0}</color> <color=white>пишет:</color> {1}."},
+            {"command_private_message_successfully", "{0}" },
+            {"command_private_message_player_not_found", "Игрок не найден." },
         };
 
 
